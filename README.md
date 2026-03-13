@@ -1,10 +1,7 @@
 # yuanshi-app
 
-1. 项目代码（GitHub 链接或打包 zip 文件）
-2. 一个可运行的预览地址（CodeSandbox / Netlify / Vercel）
-3. 一页说明文档（Markdown 或 PDF）：
-   - 使用了哪些 AI 工具？在哪些模块？
-   - 哪些代码由 AI 生成？你做了哪些修改？
-   - 哪一部分你认为最难或最满意？
+主要使用fitten code 来辅助生成一些代码和完整代码。并且通过fitten code来给我echarts的简单实例和api的使用。
+注释都是由ai生成的，这样有便于理解和学习。
+然后config-overrides中的配置是让ai帮我生成，然后改了一下简单配置
 
-  
+最难的地方就是项目初始化的时候配置项目，刚开始很多小问题报错，后来通过ai 帮助我解决了。
