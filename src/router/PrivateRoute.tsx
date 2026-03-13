@@ -8,7 +8,7 @@ type PrivateRouteProps = {
 };
 
 const PrivateRoute = (props: PrivateRouteProps) => {
-  
+  const { access, element } = props;
   const [canAccess, setCanAccess] = useState<boolean | null>(null);
 
   useEffect(() => {
@@ -27,10 +27,10 @@ const PrivateRoute = (props: PrivateRouteProps) => {
         throw new Error('access must be a function or boolean');
       }
     };
-    if (typeof props.access === 'function') {      
-      fn(props.access());
+    if (typeof access === 'function') {      
+      fn(access());
     } else {
-      fn(props.access);
+      fn(access);
     }
   }, []);
 
