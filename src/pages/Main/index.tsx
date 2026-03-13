@@ -34,7 +34,7 @@ export default function App() {
     navigate(item.key);
   };
 
-  if (currentPath == '') {
+  if (currentPath === '') {
     return null;
   }
   return  <div className={styles.layout}>

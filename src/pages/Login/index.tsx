@@ -1,4 +1,4 @@
-import { Button, Form, Input, message } from "antd";
+import { Button, Form, Input } from "antd";
 import { useLocation } from 'react-router-dom';
 import styles from './index.module.less';
 

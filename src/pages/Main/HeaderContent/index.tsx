@@ -1,6 +1,6 @@
 import { Dropdown, Space } from 'antd';
 import type { MenuProps } from 'antd';
-import { UserOutlined, LogoutOutlined, DownOutlined } from '@ant-design/icons';
+import {  LogoutOutlined, DownOutlined } from '@ant-design/icons';
 import styles from './index.module.less';
 
 function UserDropMenu() {

@@ -1,5 +1,4 @@
-import { render } from "@testing-library/react";
-import { Button, Flex, Table } from "antd";
+import { Button,  Table } from "antd";
 import { useMemo, useState } from "react";
 import Charts from "./Charts";
 import styles from "./index.module.less";

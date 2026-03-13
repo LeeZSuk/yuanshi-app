@@ -1,7 +1,6 @@
 import React, { JSX, useEffect, useState } from 'react';
 import { Navigate } from 'react-router-dom';
 import type { AccessType } from './routes.type';
-import Login from '@/pages/Login';
 
 type PrivateRouteProps = {
   element: React.ReactNode;
