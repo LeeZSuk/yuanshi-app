@@ -8,7 +8,7 @@ type PrivateRouteProps = {
 };
 
 const PrivateRoute = (props: PrivateRouteProps) => {
-  const { access, element } = props;
+  const { access } = props;
   const [canAccess, setCanAccess] = useState<boolean | null>(null);
 
   useEffect(() => {
@@ -32,7 +32,7 @@ const PrivateRoute = (props: PrivateRouteProps) => {
     } else {
       fn(access);
     }
-  }, []);
+  });
 
   if ( canAccess === false) {
     return <Navigate to='/login' />
